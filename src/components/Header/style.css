@@ -1,0 +1,117 @@
+
+.header-parent-wrapper {
+  padding: 10px;
+}
+.col-center ul li {
+  list-style-type: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  color: #000;
+  margin: 0;
+}
+.col-center ul li:hover {
+  cursor: pointer;
+}
+.col-center ul  {
+  margin: 0;
+}
+
+.btn {
+  background: transparent;
+  border: 1px solid #2C2D5B;
+  color: #2C2D5B;
+  border-radius: 12px;
+  padding: 20px 40px;
+}
+
+.btn:hover {
+  border: 1px solid #2C2D5B;
+}
+
+.active {
+  background-color: #2C2D5B !important;
+  color: #fff !important;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Style for the dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Show the dropdown content on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Style for the dropdown links */
+.dropdown-content {
+  margin: 0;
+  padding: 12px 8px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color on hover */
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.ham {
+  display: none;
+}
+.hide {
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+.col-center {
+  display: none;
+}
+.hide  {
+    display: none !important;
+}
+.ham {
+  display: block;
+}
+.header-parent-wrapper .d-flex {
+  flex-direction: row !important;
+}
+.close-modal-btn {
+  width: 100%;
+  text-align: right;
+}
+ul {
+padding-left: 8px;
+}
+ul li {
+  list-style-type: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  color: #000;
+  margin: 0;
+}
+.menu-line {
+  height: 5px;
+  width: 30px;
+  background-color: #000;
+  border-radius: 10px;
+  margin: 5px ;
+}
+}
